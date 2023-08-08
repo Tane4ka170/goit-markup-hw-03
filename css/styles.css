@@ -91,11 +91,6 @@ img {
     margin-bottom: 120px;
 }
 
-.list li {
-    break-inside: avoid;
-    text-align: justify;
-}
-
 .hedder-menu {
     list-style: none;
     display: flex;
