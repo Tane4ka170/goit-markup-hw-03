@@ -36,11 +36,10 @@ img {
 /* site nav */
 .container {
     display: flex;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 header > div {
@@ -57,6 +56,8 @@ header > div {
     display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
+
 }
 .link {
     text-decoration: none;
