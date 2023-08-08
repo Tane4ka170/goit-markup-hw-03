@@ -100,7 +100,6 @@ img {
 
 .hedder-menu {
     list-style: none;
-    padding: 24px 0 24px;
     display: flex;
     gap: 40px;
 }
@@ -127,6 +126,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     transition: color 0.3s ease;
+    padding: 24px 0;
 }
 
 .nav-link:focus {
