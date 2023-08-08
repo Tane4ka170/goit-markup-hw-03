@@ -306,8 +306,9 @@ img {
 }
 
 .logo-footer {
-    margin-bottom: 16px;
     display: inline-block;
+    margin-bottom: 16px;
+    
 }
 
 .link-footer {
