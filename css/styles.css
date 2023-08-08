@@ -42,9 +42,12 @@ img {
     padding-right: 15px;
 }
 
-header > div {
+.nav-headder {
+    display: flex;
     align-items: center;
-    max-height: 80px;
+}
+.logo {
+    margin-right: 76px
 }
 .nav {
     display: flex;
@@ -57,7 +60,11 @@ header > div {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
+}
 
+.headder-wrapper {
+    display: flex;
+    gap: 40px
 }
 .link {
     text-decoration: none;
@@ -98,10 +105,7 @@ header > div {
 
 .hedder-menu {
     list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  vertical-align: middle;
+    padding: 24px 0 24px;
 }
 .list-item {
     color: #2e2f42;
@@ -135,11 +139,9 @@ header > div {
     color: #404bbf;
 }
 
-.address {
-display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  vertical-align: middle;
+.adress-list {
+    display: flex;
+    gap: 40px 
 }
 .contact-list {
     list-style: none;
@@ -149,7 +151,6 @@ display: flex;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin: 5px 0;
 }
 
 .contact-link {
