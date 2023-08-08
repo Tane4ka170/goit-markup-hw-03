@@ -258,6 +258,7 @@ img {
 .section-thee-list {
     display: flex;
     gap: 24px;
+    width: calc((100% - 3 * 16px) / 3);
 }
 
 .section-thee-list-order {
@@ -283,6 +284,7 @@ img {
 .section-our-team-list {
     display: flex;
     gap: 24px;
+    width: calc((100% - 3 * 24px) / 4);
 }
 .our-team {
     background-color: #FFFFFF;
@@ -385,6 +387,7 @@ body.portfolio {
     flex-wrap: wrap; 
     column-gap: 24px;
     row-gap: 48px; 
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-apps-list {
