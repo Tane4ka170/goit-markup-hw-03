@@ -301,13 +301,9 @@ img {
 /* footer */
 .footer {
     background: var(--navyblue, #2E2F42);
-    flex-direction: column;
     padding: 100px 0;
 }
 
-footer>div>a {
-    display: inline-block
-}
 .logo-footer {
     display: inline-block;
     margin-bottom: 16px;
