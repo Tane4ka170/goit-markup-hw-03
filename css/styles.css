@@ -204,6 +204,15 @@ img {
 .section-two {
     padding: 120px 0;
 }
+
+.section-two-list {
+    display: flex; 
+    gap: 24px;
+}
+
+.section-two-list-order {
+    calc((100% - 72px) / 4);
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
