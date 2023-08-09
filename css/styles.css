@@ -48,24 +48,22 @@ img {
 }
 
 .headder-top {
-    border: 1px solid #ECECEC;
-    background-color: #fff;
-  border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .link {
     text-decoration: none;
 }
 .logo-link {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--logo-color, #4d5ae5);
     margin-right: 76px;
     padding: 24px 0;
+    font-family: Raleway, sans-serif;
+    color: var(--iris, #4d5ae5);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 .link-header {
     color: var(--navyblue, #2E2F42);
@@ -95,7 +93,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: block;
-    padding: 24px 0;
 }
 .list-item:hover {
     color: #404bbf;
@@ -344,6 +341,7 @@ body.portfolio {
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
+    padding-top: 96px; padding-bottom: 120px; 
 }
 .button-portfolio {
     font-family: "Roboto", sans-serif;
