@@ -50,9 +50,6 @@ img {
 .headder-top {
     border: 1px solid #ECECEC;
     background-color: #fff;
-    display: flex;
-  justify-content: space-between;
-  align-items: center;
   border-bottom: 1px solid #e7e9fc;
 }
 
