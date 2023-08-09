@@ -159,7 +159,7 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto;
 }
 
@@ -198,8 +198,8 @@ img {
     gap: 24px;
 }
 
-.section-two-list-order {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+.section-two-list-order:first-child {
+    width: calc((100% - 72px) / 4);
 }
 .visually-hidden {
     position: absolute;
