@@ -338,6 +338,7 @@ body.portfolio {
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-bottom: 72px;
 }
 .button-portfolio {
     font-family: "Roboto", sans-serif;
